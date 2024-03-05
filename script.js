@@ -133,7 +133,7 @@ btnCopiar.addEventListener("click", () => {
     let contenido = resultado.textContent;
     navigator.clipboard.writeText(contenido);
 
-    // También puedes agregar el texto copiado a la caja de texto
+    // Agregar el texto copiado a la caja de texto
     document.querySelector(".cajatexto").value = contenido;
 });
 
